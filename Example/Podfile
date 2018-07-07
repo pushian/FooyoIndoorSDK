@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FooyoIndoorSDK_Example' do
+  pod 'FooyoIndoorSDK', :path => '../'
+
+  target 'FooyoIndoorSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
