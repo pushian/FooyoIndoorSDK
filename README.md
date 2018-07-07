@@ -22,9 +22,10 @@ pod 'FooyoIndoorSDK'
 
 ## How to use
 
-Create a new instance of FooyoIndoorSDKViewController, or your custom subclass and add the following lines to the action of your navigation button.
+Create a new instance of FooyoIndoorSDKViewController, and use the following lines to define the action of your navigation button.
 ```
 navigationButton.addTarget(self, action: #selector(btnHandler), for: .touchUpInside)
+
 @objc func btnHandler() {
     let vc = FooyoIndoorSDKViewController()
     let nav = UINavigationController.init(rootViewController: vc)
