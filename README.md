@@ -17,7 +17,7 @@ FooyoIndoorSDK is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```
-pod 'FooyoIndoorSDK'
+pod 'FooyoIndoorSDK', :git => 'https://github.com/pushian/FooyoIndoorSDK.git'
 ```
 
 ## How to use
