@@ -1,0 +1,27 @@
+PODS:
+  - DZNWebViewController (3.2)
+  - FooyoIndoorSDK (0.1.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - DZNWebViewController
+  - FooyoIndoorSDK (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNWebViewController
+    - SnapKit
+
+EXTERNAL SOURCES:
+  FooyoIndoorSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
+  FooyoIndoorSDK: 77c00fcec434126544a8c2bbae301fabb789f04b
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: a024b38e3faa02566f3215f6e8ffe82e90e3d506
+
+COCOAPODS: 1.5.3

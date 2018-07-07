@@ -1,0 +1,22 @@
+{
+  "name": "FooyoIndoorSDK",
+  "version": "0.1.0",
+  "summary": "A short description of FooyoIndoorSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pushian/FooyoIndoorSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pushian": "y@fooyo.sg"
+  },
+  "source": {
+    "git": "https://github.com/pushian/FooyoIndoorSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FooyoIndoorSDK/Classes/**/*"
+}

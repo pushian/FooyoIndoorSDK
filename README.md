@@ -16,10 +16,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 FooyoIndoorSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```
 pod 'FooyoIndoorSDK'
 ```
 
+## How to use
+
+Create a new instance of FooyoIndoorSDKViewController, or your custom subclass and add the following lines to the action of your navigation button.
+```
+navigationButton.addTarget(self, action: #selector(btnHandler), for: .touchUpInside)
+@objc func btnHandler() {
+    let vc = FooyoIndoorSDKViewController()
+    let nav = UINavigationController.init(rootViewController: vc)
+    self.present(nav, animated: true, completion: nil)
+}
+```
 ## Author
 
 pushian, y@fooyo.sg
